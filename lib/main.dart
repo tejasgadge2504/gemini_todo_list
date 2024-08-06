@@ -46,7 +46,7 @@ class MyApp extends StatelessWidget {
     AppAuthController appAuthController = Get.find();
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Todo App',
+      title: 'TODO LIST APP',
       theme: _defaultTheme,
       initialRoute:
           appAuthController.islogging ? Routes.home : Routes.signInPage,
